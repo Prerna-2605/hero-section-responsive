@@ -272,9 +272,15 @@
         transform-origin: left;
     }
 
-        .activeNavBar .menu-icon{
-            height: 28px;
-        }
+    .activeNavBar .menu-icon {
+        height: 28px;
+    }
+}
+
+@media (min-width:1040px) {
+    .d-md-none {
+        display: none;
+    }
 }
 
 @media (max-width:492px) {
