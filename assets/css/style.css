@@ -153,7 +153,7 @@
 
 .card {
     backdrop-filter: blur(3px);
-    width: 100%;
+    max-width: 647px;
     padding-top: 32px;
     padding-bottom: 32px;
     margin-bottom: 40px;
@@ -189,6 +189,11 @@
 
 .chimpz {
     max-width: 100%;
+}
+
+nav {
+    position: sticky;
+    top: 0;
 }
 
 @media (min-width:875px) {
